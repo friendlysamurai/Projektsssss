@@ -1,3 +1,13 @@
 body {
     background-color: beige;
 }
+
+.centrs {
+ text-align: center;
+}
+
+.encode-sans expanded-thin {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  } 
