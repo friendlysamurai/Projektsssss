@@ -10,8 +10,8 @@
 </head>
 <body>
 
+
     <div class="container">
-        
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
           <div class="col-md-3 mb-2 mb-md-0">
           </div>
@@ -19,7 +19,6 @@
             <li><a href="./simon.html" class="nav-link px-2">Atmiņas spēle</a></li>
             <li><a href="./pi.html" class="nav-link px-2">π spēle</a></li>
           </ul>
-          
           <div class="col-md-3 text-end">
             <p id="datetime"></p>
           </div>
@@ -27,11 +26,12 @@
         </header>
       </div>
 
-
-
-      <label for="Name">π=</label>
-      <input type="text" id="Name" name="Name" placeholder="3.14">
-
+      <div class="centrs">
+      <p> π=<input class="logs" type="text" id="ievade"></p>
+<p> <button onclick="sakt()">Sākt</button> <button onclick="beigt()">Beigt</button></p>
+<p id="info"></p>
+<p id="rez">Tu atcrējies _ skaitļus!</p>
+</div>
 
 
 
